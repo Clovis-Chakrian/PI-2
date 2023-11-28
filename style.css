@@ -1,0 +1,42 @@
+:root {
+  --background-color: #F6F6F6;
+  --primary-color: #101070;
+  --text-color: #000
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+header {
+  max-width: 100%;
+  height: 8rem;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  color: #FFF;
+}
+
+#cards-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 112px;
+}
+
+.card-container {
+  background-color: #FEFCFC;
+  border-radius: 7px;
+  border: 1px solid red;
+  width: 349px;
+}
