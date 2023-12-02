@@ -1,5 +1,5 @@
 async function getData() {
-  const urlBase = 'http://localhost:3333';
+  const urlBase = 'https://pi-back-gxr4.onrender.com';
 
   try {
     const escolasResponse = await fetch(`${urlBase}/tipo-escola`);
