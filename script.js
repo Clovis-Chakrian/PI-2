@@ -41,6 +41,7 @@ async function getData() {
     geraGraficoAgua(abastAguaInfo);
     geraGraficoEnergia(abastEnergiaInfo);
   } catch (error) {
+    alert("Houve um erro ao buscar os dados. Recarregue a página e tente novamente.")
     console.error('Erro ao obter dados do banco de dados:', error);
   }
 }
